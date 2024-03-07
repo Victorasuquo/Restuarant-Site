@@ -1,0 +1,18 @@
+:root {
+    --main-color: #f24f04;
+    --text-color: #252429;
+    --bg-color: #fffefb;
+    --rr-color: #ffa50a;
+    --other-color: #95949a;
+    --bb-color: #fed4a9;
+    --bu-color:#eadcb8;
+    --br-color:#e3d4b8;
+    --ba-color:#f9e1a8;
+    --bh-color: #fdecd4;
+    --box-color: rgb(252, 196, 124);
+    --input-color: #e0dede;
+
+    --big-font: 4.4rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
