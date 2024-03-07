@@ -14,11 +14,11 @@
     --bg-color: #fffefb;
     --rr-color: #ffa50a;
     --other-color: #95949a;
-    --bb-color: #fff2de;
+    --bb-color: #fed4a9;
     --bu-color:#eadcb8;
     --br-color:#e3d4b8;
     --ba-color:#f9e1a8;
-    --bh-color: #fdecd4;
+    --bh-color: #ffcc99;
     --box-color: rgb(252, 196, 124);
 
     --big-font: 4.4rem;
@@ -43,6 +43,10 @@ header{
     border-bottom: 2px solid var(--ba-color);
     padding: 15px 14%;
     transition: all ease .52s;
+    -webkit-transition: all ease .52s;
+    -moz-transition: all ease .52s;
+    -ms-transition: all ease .52s;
+    -o-transition: all ease .52s;
 }
 .logo img{
     width: 120px;
@@ -60,6 +64,10 @@ header{
    font-weight: 500;
    color: var(--text-color);
    transition: all ease .50s;
+   -webkit-transition: all ease .50s;
+   -moz-transition: all ease .50s;
+   -ms-transition: all ease .50s;
+   -o-transition: all ease .50s;
 }
 .navbar a::after{
     position: absolute;
@@ -72,6 +80,18 @@ header{
     border-radius: 2px;
     background: var(--main-color);
     transition: all ease .50s;
+    -webkit-transition: all ease .50s;
+    -moz-transition: all ease .50s;
+    -ms-transition: all ease .50s;
+    -o-transition: all ease .50s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 .navbar a:hover::after{
     width: 40%;
@@ -113,6 +133,10 @@ header{
     color: var(--text-color);
     margin-left: 20px;
     transition: all ease.50s;
+    -webkit-transition: all ease.50s;
+    -moz-transition: all ease.50s;
+    -ms-transition: all ease.50s;
+    -o-transition: all ease.50s;
 }
 .header-icons{
     font: 0.1
@@ -120,6 +144,10 @@ header{
 .header-icons i:hover{
     transform: scale(1.1) translateX(-5px);
     color: var(--main-color);
+    -webkit-transform: scale(1.1) translateX(-5px);
+    -moz-transform: scale(1.1) translateX(-5px);
+    -ms-transform: scale(1.1) translateX(-5px);
+    -o-transform: scale(1.1) translateX(-5px);
 }
 #menu-icon{
     color: var(--text-color);
@@ -184,6 +212,10 @@ section{
 }
 .btn:hover{
     transform: scale(1.1 ) translateX(-5px);
+    -webkit-transform: scale(1.1 ) translateX(-5px);
+    -moz-transform: scale(1.1 ) translateX(-5px);
+    -ms-transform: scale(1.1 ) translateX(-5px);
+    -o-transform: scale(1.1 ) translateX(-5px);
 }
 .btn2{
     font-size: 14px;
@@ -209,6 +241,10 @@ section{
 }
 .btn2 span i:hover{
     transform: scale(1.1 ) translateX(-5px);
+    -webkit-transform: scale(1.1 ) translateX(-5px);
+    -moz-transform: scale(1.1 ) translateX(-5px);
+    -ms-transform: scale(1.1 ) translateX(-5px);
+    -o-transform: scale(1.1 ) translateX(-5px);
 }
 
 /* ---==categories==--- */
